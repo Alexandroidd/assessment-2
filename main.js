@@ -9,6 +9,14 @@ document.addEventListener('keydown', function(event) {
 		shipOne.style.left = moveOne + "px" ;
 		moveOne += 100;
 	}
-document.
+});
+
+document.addEventListener('keydown', function(event) {
+	if(event.code === "KeyA") {
+		console.log("I'm Moving right Too!");
+		shipTwo.style.left = moveTwo + "px";
+		moveTwo += 100;
+	}
+
 
 });
