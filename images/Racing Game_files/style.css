@@ -1,0 +1,46 @@
+/*body {
+	background-image: url('images/starFoxBackground.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+}*/
+
+
+img.bg {
+	min-height: 100%;
+/*	min-width: 1280px;
+*/	width: 100%;
+	height: auto;
+	position: fixed;
+	top:0;
+	left: 0;
+}
+div.titleBox {
+	color: white;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+button {
+	font-size: 15px;
+	background-color: transparent;
+}
+
+h5 {
+	color: white;
+}
+
+.ships {
+	position: relative;
+}
+
+
+
+
+
+
+
