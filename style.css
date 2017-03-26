@@ -47,6 +47,15 @@ h5 {
 	left: 0px;
 }
 
+#finishLine {
+	min-height: 100%;
+	height: auto;
+	width: 1px;
+	position: absolute;
+	right:1px;
+	top: 0;
+	background-color: yellow;
+}
 
 
 
