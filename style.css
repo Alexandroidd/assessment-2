@@ -36,15 +36,18 @@ h5 {
 
 .ships {
 	position: relative;
-	display: block;
+	/*display: block;*/
 }
 #shipOne {
 	top:20px;
 	left: 0px;
+	margin:0px;
+	display:inline;
 }
 #shipTwo {
 	top: 35px;
 	left: 0px;
+	display:inline;
 }
 
 #finishLine {
