@@ -5,8 +5,9 @@
 	min-height: 100%;
 	min-width: 100%;
 }*/
-
-
+main {
+	padding-top: 200px;
+}
 img.bg {
 	min-height: 100%;
 /*	min-width: 1280px;
@@ -58,6 +59,25 @@ h5 {
 	right:1px;
 	top: 0;
 	background-color: yellow;
+}
+@media (max-device-width: 768px){
+
+img.bg {
+	width: 200%;
+	height:auto;
+}
+
+main {
+padding-top: 650px;
+}
+
+#shipOne {
+	width: 130px;
+}
+
+#shipTwo {
+	width: 130px;
+}
 }
 
 
