@@ -65,8 +65,6 @@ document.addEventListener('keydown', function(event) {
 		winCheckTwo = function() {
 			if (shipTwoPosition >= finishLinePosition) {
 			alert("PLAYER Two WINS!");
-			shipTwoPosition = 0;
-			shipOnePosition = 0;
 			}
 		};
 		winCheckTwo();
